@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "name": "content"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "fulltext": {
+      "type": "richtext"
+    },
+    "publish_time": {
+      "type": "datetime"
+    }
+  }
+}
